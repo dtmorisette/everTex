@@ -31,7 +31,7 @@ function iframeload_listener(iframename){
     dScript=dom.createElement('script');
     dScript.type='text/javascript';
     dScript.id='evertex_mathjax'
-    dScript.src='http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    dScript.src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
     dScript.text='if(!MathJax.isReady) MathJax.Hub.Startup.onload(); MathJax.Hub.Typeset();'
     dom.body.appendChild(dScript);
   }
